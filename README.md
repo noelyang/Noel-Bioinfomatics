@@ -1,6 +1,6 @@
 # Noel's Bioinfomatic Toolbox
 
-Hi there, this is a personal repository which contains some scripts I used in my bioinformatic research.
+Hi there, this is a personal repository containing some scripts I used in my bioinformatic research.
 All the solutions are quick-and-dirty, easily to use. If you want some more functions, email me.
 
 Current scripts:
