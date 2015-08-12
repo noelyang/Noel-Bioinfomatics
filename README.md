@@ -5,12 +5,12 @@ All the solutions are dirty and quick. If you want some more functions, email me
 
 Current scripts:
 
-> FormatConvert
+**FormatConvert**
 - fasta2nexus.pl: A quick-and-dirty script to convert Fasta files to Nexus files.
 - nex2nwk.pl: Simple script to convert nexus trees into newick trees. BioPerl is required.
 - extract_fasta_from_beast_xml.pl: Extract fasta files from multi-sample BEAST xml file.
 
-> SequenceManipulate
+**SequenceManipulate**
 - changetags.pl: Simple script to change fasta tags with given new tags.
 - fasnochangeline.pl: Convert 80/100-bp-per-line fasta file into no change line fasta file.
 - lengthfilter.pl: This script filters sequence shorter than given length.
