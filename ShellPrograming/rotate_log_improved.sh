@@ -95,11 +95,6 @@ recurFile () {
 			error=true
 			echo "ATTENTION: Log file $1.$fileCount is missing!"
 			echo "ATTENTION: Log file $1.$fileCount's archive is found!"
-			# Here, according to the original requirements, some errors might be found.
-			# With rule #4, after multiple times of backup, the filename in the archived file
-			# will be different with the archive file. For example, after 2 times of backing up with
-			# low z value, the file in filename.n.gz might actually be filename.n-1, instead of
-			# filename.n
 			echo "ERROR: Unzip $1.$fileCount.gz first!(Mind the file name)"
 		
 		# If the log file and its archive were both missing, set $error as true
