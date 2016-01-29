@@ -23,7 +23,6 @@ noBackup=false
 
 # Function printing help info
 printHelp () {
-
 	echo "This is a script to rotate log files. Old log files will be renamed and archived."
 	echo "Usage: $scriptName [OPTIONS] logfile"
 	echo ""
